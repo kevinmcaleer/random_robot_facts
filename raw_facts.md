@@ -100,3 +100,150 @@
 | 98 | Humanoid robots are used in research to understand human motion and biomechanics. |
 | 99 | In some countries, robots are used as waiters and cooks in restaurants. |
 | 100 | Robotic sorting systems are used in recycling facilities to improve efficiency and accuracy. |
+|101| The first known use of the word "robot" was in a 1920 play "R.U.R." by Karel Čapek.|
+|102| The term "robotics" was first coined by Isaac Asimov in his 1941 science fiction short-story “Liar!”.|
+|103| Asimov also proposed the three "Laws of Robotics" to govern the behavior of robots.|
+|104| The first industrial robot was installed in a General Motors factory in 1961.|
+| 1           | The first known use of the word "robot" was in a 1920 play "R.U.R." by Karel Čapek. |
+| 2           | The term "robotics" was first coined by Isaac Asimov in his 1941 science fiction short-story “Liar!”. |
+| 3           | Asimov also proposed the three "Laws of Robotics" to govern the behavior of robots. |
+| 4           | The first digitally operated and programmable robot, the Unimate, was installed in 1961 to lift hot pieces of metal. |
+| 5           | Japan is considered the leader in robot technology, having the highest number of robots working in factories. |
+| 6           | The world's largest robot is a giant, rideable mech suit called MONONOFU, standing at 8.5 meters tall. |
+| 7           | NASA's Mars rovers are some of the most advanced robots used in space exploration. |
+| 8           | The first robot in space was the Soviet spacecraft Lunokhod 1, launched in 1970. |
+| 9           | Sophia, developed by Hanson Robotics, is one of the world's most famous humanoid robots, known for her human-like appearance. |
+| 10          | Aibo, a robotic pet developed by Sony, can develop its own personality over time. |
+| 11          | The smallest medical robot, the “micro-scallop,” is only 800 micrometers in size, designed to navigate through bodily fluids. |
+| 12          | Robotic exoskeletons are being developed to help people with mobility issues walk again. |
+| 13          | The Roomba, a robotic vacuum cleaner, became one of the first commercially successful domestic robots. |
+| 14          | In 2018, Singapore deployed the first robot swimmer for pool maintenance. |
+| 15          | Boston Dynamics' robot, Atlas, can perform complex tasks like backflips and running. |
+| 16          | Robotic prosthetics are now advanced enough to allow for individual finger movement. |
+| 17          | In 2013, a robot called Hadrian was created to lay bricks, capable of building a house in just two days. |
+| 18          | The first robotic surgery was performed in 1985, using the PUMA 560 robotic surgical arm. |
+| 19          | In South Korea, the first robot-themed amusement park, Robot Land, opened in 2016. |
+| 20          | The world's first robot citizen, Sophia, was granted citizenship by Saudi Arabia in 2017. |
+| 21          | Robonaut 2, developed by NASA, was the first humanoid robot in space. |
+| 22          | In 2014, hitchBOT, a Canadian hitchhiking robot, successfully traveled across Canada. |
+| 23          | The first talking robot in space, Kirobo, was sent to the International Space Station in 2013. |
+| 24          | The game of chess has played a significant role in the development of artificial intelligence for robots. |
+| 25          | In 2019, a robot artist named Ai-Da was created, capable of drawing people from life using her bionic eyes and robotic arm. |
+| 26          | RoboCup, an annual soccer competition, aims to develop autonomous soccer robots. |
+| 27          | The first robot to mimic human expressions was Bina48, based on a real person's appearance, memories, and personality. |
+| 28          | In 2020, the world's first digital model, a robot named Imma, appeared on the cover of a fashion magazine. |
+| 29          | The first robot pharmacist started operating in a California hospital in 2011. |
+| 30          | Robots are used in agriculture for tasks like planting, weeding, and harvesting. |
+| 31          | In Japan, a hotel run almost entirely by robots was opened in 2015. |
+| 32          | Researchers are developing robots that can repair themselves. |
+| 33         | Robotic fish are used for monitoring pollution in water bodies. |
+| 34 | The first robot detective, named Knightscope K5, was deployed in Silicon Valley to patrol parking lots and campuses. |
+| 35 | In China, the first robot dentist successfully performed a dental implant in 2017. |
+| 36 | The RoboBee, a tiny robot inspired by bees, can perform controlled flight. |
+| 37 | The first robot teacher, named Saya, started teaching in a Tokyo elementary school in 2009. |
+| 38 | Pepper, a humanoid robot, can read human emotions and is used in customer service. |
+| 39 | RoboThespian, a life-sized humanoid robot, is designed for human interaction in public environments. |
+| 40 | Spot, developed by Boston Dynamics, was employed to encourage social distancing in Singaporean parks. |
+| 41 | The TALON robots are used by military forces for bomb disposal and surveillance missions. |
+| 42 | In 2019, a robot named Flippy was deployed to flip burgers in a California fast-food restaurant. |
+| 43 | The world's first robotic bartender, named Makr Shakr, can prepare and serve cocktails. |
+| 44 | Disney's theme parks use animatronic robots to create lifelike characters. |
+| 45 | Robotic snake designs are being developed for search and rescue missions in tight spaces. |
+| 46 | In 2021, a robot called CIMON-2, equipped with AI, was sent to the ISS to interact with astronauts. |
+| 47 | The first robot marathon, a 42.195-kilometer race, was held in Japan in 2011. |
+| 48 | The OceanOne robot, designed by Stanford University, can dive to depths unreachable by humans. |
+| 49 | Robotic suits, or exoskeletons, are being developed for soldiers to enhance strength and endurance. |
+| 50 | Robot jockeys are used in camel racing in some Middle Eastern countries. |
+| 51 | In 2018, a robot named FORPHEUS was recognized by Guinness World Records as the first robot table tennis tutor. |
+| 52 | In 2020, a robotic lab assistant named Ada was developed, capable of performing 1,000 experiments a week. |
+| 53 | A robot named Relay, developed as a hotel butler, can deliver items to hotel guests. |
+| 54 | The first autonomous robotic ice-cream server was launched in California in 2019. |
+| 55 | Robo-advisors are AI-driven platforms that provide automated financial planning services. |
+| 56 | The Moley Robotic Kitchen can cook meals from a database of recipes. |
+| 57 | Robotic farming machines are being used for precision agriculture. |
+| 58 | In 2017, Dubai recruited the world's first robotic police officer. |
+| 59 | A robot named Loomo, developed by Segway, serves as a personal transporter and companion. |
+| 60 | AI-driven robots are being used in healthcare for personalized medicine. |
+| 61 | The Henn na Hotel in Japan employs dinosaur-shaped receptionist robots. |
+| 62 | Robotic dolphins are being developed as ethical alternatives to captive animals in aquariums. |
+| 63 | A robot named YuMi conducts orchestras and has performed with Andrea Bocelli. |
+| 64 | In 2018, a robot named BagelBot was created to make bagels at a New York cafe. |
+| 65 | The world's first robot-made coffee shop opened in San Francisco. |
+| 66 | The Da Vinci Surgical System robot assists in complex surgeries with precision. |
+| 67 | Autonomous drones are being used for delivery services by companies like Amazon. |
+| 68 | In 2019, a robotic priest named Mindar was introduced in a Japanese temple. |
+| 69 | The Robear robot in Japan assists in lifting and moving elderly patients in hospitals. |
+| 70 | The Trash Bot, developed for waste sorting, uses AI to identify and separate recyclable materials. |
+| 71 | A robot named Olli, an autonomous vehicle, is being used for public transportation. |
+| 72 | Robotic lawnmowers are becoming popular for automated lawn maintenance. |
+| 73 | A robot called Tally is used in retail stores to manage inventory. |
+| 74 | The world's first autonomous robotic kitchen assistant, named Sally, can make custom salads. |
+| 75 | Robotic guides are used in museums and galleries for interactive tours. |
+| Robotic fish are used for monitoring pollution in water bodies. |
+| 34 | The first robot detective, named Knightscope K5, was deployed in Silicon Valley to patrol parking lots and campuses. |
+| 35 | In China, the first robot dentist successfully performed a dental implant in 2017. |
+| 36 | The RoboBee, a tiny robot inspired by bees, can perform controlled flight. |
+| 37 | The first robot teacher, named Saya, started teaching in a Tokyo elementary school in 2009. |
+| 38 | Pepper, a humanoid robot, can read human emotions and is used in customer service. |
+| 39 | RoboThespian, a life-sized humanoid robot, is designed for human interaction in public environments. |
+| 40 | Spot, developed by Boston Dynamics, was employed to encourage social distancing in Singaporean parks. |
+| 41 | The TALON robots are used by military forces for bomb disposal and surveillance missions. |
+| 42 | In 2019, a robot named Flippy was deployed to flip burgers in a California fast-food restaurant. |
+| 43 | The world's first robotic bartender, named Makr Shakr, can prepare and serve cocktails. |
+| 44 | Disney's theme parks use animatronic robots to create lifelike characters. |
+| 45 | Robotic snake designs are being developed for search and rescue missions in tight spaces. |
+| 46 | In 2021, a robot called CIMON-2, equipped with AI, was sent to the ISS to interact with astronauts. |
+| 47 | The first robot marathon, a 42.195-kilometer race, was held in Japan in 2011. |
+| 48 | The OceanOne robot, designed by Stanford University, can dive to depths unreachable by humans. |
+| 49 | Robotic suits, or exoskeletons, are being developed for soldiers to enhance strength and endurance. |
+| 50 | Robot jockeys are used in camel racing in some Middle Eastern countries. |
+| 51 | In 2018, a robot named FORPHEUS was recognized by Guinness World Records as the first robot table tennis tutor. |
+| 52 | In 2020, a robotic lab assistant named Ada was developed, capable of performing 1,000 experiments a week. |
+| 53 | A robot named Relay, developed as a hotel butler, can deliver items to hotel guests. |
+| 54 | The first autonomous robotic ice-cream server was launched in California in 2019. |
+| 55 | Robo-advisors are AI-driven platforms that provide automated financial planning services. |
+| 56 | The Moley Robotic Kitchen can cook meals from a database of recipes. |
+| 57 | Robotic farming machines are being used for precision agriculture. |
+| 58 | In 2017, Dubai recruited the world's first robotic police officer. |
+| 59 | A robot named Loomo, developed by Segway, serves as a personal transporter and companion. |
+| 60 | AI-driven robots are being used in healthcare for personalized medicine. |
+| 61 | The Henn na Hotel in Japan employs dinosaur-shaped receptionist robots. |
+| 62 | Robotic dolphins are being developed as ethical alternatives to captive animals in aquariums. |
+| 63 | A robot named YuMi conducts orchestras and has performed with Andrea Bocelli. |
+| 64 | In 2018, a robot named BagelBot was created to make bagels at a New York cafe. |
+| 65 | The world's first robot-made coffee shop opened in San Francisco. |
+| 66 | The Da Vinci Surgical System robot assists in complex surgeries with precision. |
+| 67 | Autonomous drones are being used for delivery services by companies like Amazon. |
+| 68 | In 2019, a robotic priest named Mindar was introduced in a Japanese temple. |
+| 69 | The Robear robot in Japan assists in lifting and moving elderly patients in hospitals. |
+| 70 | The Trash Bot, developed for waste sorting, uses AI to identify and separate recyclable materials. |
+| 71 | A robot named Olli, an autonomous vehicle, is being used for public transportation. |
+| 72 | Robotic lawnmowers are becoming popular for automated lawn maintenance. |
+| 73 | A robot called Tally is used in retail stores to manage inventory. |
+| 74 | The world's first autonomous robotic kitchen assistant, named Sally, can make custom salads. |
+| 75 | Robotic guides are used in museums and galleries for interactive tours. |
+| 76 | A robot named Titan performed as a comedian and entertainer at events. |
+| 77 | The Methuselah Mouse Prize, aimed at combating aging, has robotic laboratories contributing to research. |
+| 78 | In 2021, an AI robot named Lucy set a world record for solving a complex mathematical problem. |
+| 79 | A robotic arm called Luke, inspired by Star Wars, is an advanced prosthetic arm. |
+| 80 | Autonomous robotic boats, or "roboats," are being tested in Amsterdam's canals. |
+| 81 | A robot named Gita can carry your belongings and follow you around. |
+| 82 | AI-driven robots are being used for environmental monitoring and wildlife conservation. |
+| 83 | The world's first robotic supermarket was opened in Sweden in 2020. |
+| 84 | In 2019, a robot named Walker was showcased at CES, demonstrating skills like walking, dancing, and drawing. |
+| 85 | The robot astronaut Kirobo Mini is designed to provide companionship in space. |
+| 86 | Robotic arms are used in manufacturing for precision assembly of electronics. |
+| 87 | In China, a robotic news anchor named Xin Xiaomeng made its debut on Xinhua, a state news agency. |
+| 88 | In 2017, a robot named Stan was developed to autonomously park cars at airports. |
+| 89 | Robotic chefs are being developed to automate the cooking process in commercial kitchens. |
+| 90 | The Guardian GT is a large-scale robot with human-like arms, capable of lifting heavy loads. |
+| 91 | In 2018, a robotic fish named SoFi, designed by MIT, was used to study marine life. |
+| 92 | A robot named BINA48 successfully completed a college course on philosophy in 2017. |
+| 93 | Robots are being used in vineyards for grape picking and monitoring grapevine health. |
+| 94 | In Japan, a robot named Qrio was developed to interact and live with humans. |
+| 95 | Robotic security guards are being deployed in malls and parking lots for surveillance. |
+| 96 | The robot chef CLOi, developed by LG, can cook recipes downloaded from the internet. |
+| 97 | In 2019, a robotic system named SAM100 was used to lay bricks for construction. |
+| 98 | The NASA Valkyrie robot is designed to assist in future missions to Mars. |
+| 99 | In 2021, a robotic bartender named Cecilia.ai interacted with customers and mixed drinks in Dubai. |
+| 100 | The Methuselah Foundation's research into extending human life includes contributions from robotic laboratories. |
