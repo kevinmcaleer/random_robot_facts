@@ -1,21 +1,30 @@
-# Use an official Python runtime as a parent image
-# Updated to 3.13 on 11 Jun 2025
-FROM python:3.13-slim 
+FROM python:3.13-slim
 
-# Set the working directory in the container
 WORKDIR /app
 
-# Copy the requirements.txt file into the container at /app
+# Install tools, Rust, and build essentials
+RUN apt-get update && \
+    apt-get install -y curl build-essential ca-certificates && \
+    curl https://sh.rustup.rs -sSf | sh -s -- -y && \
+    echo 'source $HOME/.cargo/env' >> /root/.bashrc && \
+    . "$HOME/.cargo/env"
+
+# Set environment variables for Rust to work in subsequent layers
+ENV PATH="/root/.cargo/bin:${PATH}"
+
+# Install uv (precompiled binary for Raspberry Pi ARM64)
+RUN curl -L https://github.com/astral-sh/uv/releases/download/0.7.10/uv-aarch64-unknown-linux-gnu.tar.gz -o uv.tar.gz && \
+    tar -xzf uv.tar.gz && \
+    mv uv /usr/local/bin/uv && \
+    chmod +x /usr/local/bin/uv && \
+    rm uv.tar.gz
+
+# Install Python dependencies
 COPY requirements.txt /app/
+RUN uv pip install -r requirements.txt
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy the rest of your application's code
+# Copy app code
 COPY . /app
 
-# Make port 8000 available to the world outside this container
 EXPOSE 8000
-
-# Run app.py when the container launches
 CMD ["uvicorn", "random_fact:app", "--host", "0.0.0.0", "--port", "8000"]
