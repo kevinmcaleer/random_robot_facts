@@ -1,5 +1,6 @@
 # Use an official Python runtime as a parent image
-FROM python:3.9-slim
+# Updated to 3.13 on 11 Jun 2025
+FROM python:3.13-slim 
 
 # Set the working directory in the container
 WORKDIR /app
