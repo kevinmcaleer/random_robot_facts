@@ -2,10 +2,10 @@ FROM python:3.13-slim
 
 WORKDIR /app
 
-# Install dependencies to download and unpack uv, then clean up
+# Install curl and unzip, then install uv for aarch64 (Raspberry Pi 64-bit)
 RUN apt-get update && \
     apt-get install -y curl unzip && \
-    curl -Ls https://github.com/astral-sh/uv/releases/latest/download/uv-x86_64-unknown-linux-gnu.zip -o uv.zip && \
+    curl -Ls https://github.com/astral-sh/uv/releases/latest/download/uv-aarch64-unknown-linux-gnu.zip -o uv.zip && \
     unzip uv.zip && \
     mv uv /usr/local/bin/uv && \
     chmod +x /usr/local/bin/uv && \
@@ -14,13 +14,9 @@ RUN apt-get update && \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/*
 
-# Copy requirements
 COPY requirements.txt /app/
-
-# Install Python dependencies using uv
 RUN uv pip install -r requirements.txt
 
-# Copy your application code
 COPY . /app
 
 EXPOSE 8000
