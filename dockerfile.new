@@ -1,0 +1,30 @@
+FROM python:3.13-slim
+
+WORKDIR /app
+
+# Install tools, Rust, and build essentials
+RUN apt-get update && \
+    apt-get install -y curl build-essential ca-certificates && \
+    curl https://sh.rustup.rs -sSf | sh -s -- -y && \
+    echo 'source $HOME/.cargo/env' >> /root/.bashrc && \
+    . "$HOME/.cargo/env"
+
+# Set environment variables for Rust to work in subsequent layers
+ENV PATH="/root/.cargo/bin:${PATH}"
+
+# Install uv (precompiled binary for Raspberry Pi ARM64)
+RUN curl -L https://github.com/astral-sh/uv/releases/download/0.7.10/uv-aarch64-unknown-linux-gnu.tar.gz -o uv.tar.gz && \
+    tar -xzf uv.tar.gz && \
+    mv uv /usr/local/bin/uv && \
+    chmod +x /usr/local/bin/uv && \
+    rm uv.tar.gz
+
+# Install Python dependencies
+COPY requirements.txt /app/
+RUN uv pip install -r requirements.txt
+
+# Copy app code
+COPY . /app
+
+EXPOSE 8000
+CMD ["uvicorn", "random_fact:app", "--host", "0.0.0.0", "--port", "8000"]
