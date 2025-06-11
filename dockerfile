@@ -1,28 +1,21 @@
-FROM python:3.13-slim
+# Use an official Python runtime as a parent image
+# Updated to 3.13 on 11 Jun 2025
+FROM python:3.13-slim 
 
+# Set the working directory in the container
 WORKDIR /app
 
-# Install curl and CA certs, download uv prebuilt binary for ARM64, install it, then clean up
-RUN apt-get update && \
-    apt-get install -y curl ca-certificates && \
-    curl -L https://github.com/astral-sh/uv/releases/download/0.7.10/uv-aarch64-unknown-linux-gnu.tar.gz -o uv.tar.gz && \
-    tar -xzf uv.tar.gz && \
-    mv uv /usr/local/bin/uv && \
-    chmod +x /usr/local/bin/uv && \
-    rm uv.tar.gz && \
-    apt-get purge -y curl && \
-    apt-get autoremove -y && \
-    rm -rf /var/lib/apt/lists/*
-
-# Install Python dependencies using uv
+# Copy the requirements.txt file into the container at /app
 COPY requirements.txt /app/
-RUN uv pip install -r requirements.txt
 
-# Copy application code
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of your application's code
 COPY . /app
 
-# Expose port 8000
+# Make port 8000 available to the world outside this container
 EXPOSE 8000
 
-# Start the app with uvicorn
+# Run app.py when the container launches
 CMD ["uvicorn", "random_fact:app", "--host", "0.0.0.0", "--port", "8000"]
