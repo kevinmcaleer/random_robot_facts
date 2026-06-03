@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 import random
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import PlainTextResponse
 import sqlite3
 import os
 
@@ -68,6 +69,26 @@ load_facts_into_db()
 @app.get("/random-fact")
 async def random_fact():
     return {"fact": get_random_fact()}
+
+
+@app.get("/health", response_class=PlainTextResponse)
+async def health() -> str:
+    """Liveness probe for the status dashboard and Cloudflare healthchecks.
+
+    Returns plain text ``ok`` with a 200 status. Lightweight: opens the
+    facts DB just to confirm the file is readable + the table exists, so a
+    corrupted/missing DB shows as unhealthy rather than silently up. Matches
+    the convention used by chatter / nibsy / projects / status."""
+    try:
+        conn = sqlite3.connect("facts.db")
+        try:
+            conn.execute("SELECT 1 FROM facts LIMIT 1")
+        finally:
+            conn.close()
+    except Exception:
+        from fastapi import HTTPException
+        raise HTTPException(status_code=503, detail="facts db unavailable")
+    return "ok"
 
 if __name__ == "__main__":
     import uvicorn
